@@ -13,7 +13,7 @@
 body {
     /* background-color: skyblue; */
     /* color: black; */
-    background-image: url("images/FISHING 2.JPG");  /*The image used*/
+    background-image: url("images/fishes.JPG");  /*The image used*/
     background-position:center;  /*center the image */
     height: 600px; /*You must set a specified height */
     background-repeat: once; /*do not repeat the image*/
@@ -25,25 +25,26 @@ body {
 }
 
 h1 {
-  color: navy;
-  font-style: italic;
-  font-size: 36px;
+  color: red;
+  font-style: bold;
+  font-size: 50px;
 }
 
 h2 {
   color: red;
-  font-style: Italic;
-  font-size: 36px;
+  font-style: bold;
+  font-size: 50px;
   text-align: center;
-  padding: 30px;
+  padding: 50px;
 
 }
 
 h3 {
-  color: blue;
-  font-style: Italic;
-  font-size: 28px;
+  color: red;
+  font-style: bold;
+  font-size: 50px;
   text-align: center;
+  padding: 100px;
 }
 
 h1, h2, h3, h4 {
@@ -74,8 +75,9 @@ img {
 
 }
 .subtitle {
+  font-size: 48px;
   line-height: 1;
-  color: white;
+  color: red;
   margin: 15px 0;
   padding: 30px;
 }
@@ -116,8 +118,8 @@ section {
       /* line-height: 4; */
     }
 img {
-  width: 200px;
-  height: 100px;
+  width: 250px;
+  height: 200px;
 }
 
 * {
@@ -146,11 +148,11 @@ img {
   /* float: right; */
 }
 
-.banner {
-  height: 250px;
-  background-image: url("images/banner.jpg");
-  background-size: cover;
-  background-position: center;
+/* .banner { */
+  /* height: 250px; */
+  /* background-image: url("images/banner.jpg"); */
+  /* background-size: cover; */
+  /* background-position: center; */
 }
 
 .row {
@@ -169,4 +171,23 @@ img {
 .column img {
   margin-top: 8px;
   vertical-align: middle;
+}
+
+.float-image {
+  float: left;
+  margin-right: 15px;
+  margin-bottom:15px;
+}
+
+.subtitle1 {
+  font-size: 24px;
+  line-height: 2;
+  color: red;
+  margin: 15px 0;
+  padding: 60px;
+}
+
+.imgsafety img {
+  width: 250px;
+  height: 250px;
 }
