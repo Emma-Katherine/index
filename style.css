@@ -13,7 +13,7 @@
 body {
     /* background-color: skyblue; */
     /* color: black; */
-    background-image: url("images/fishes.JPG");  /*The image used*/
+    background-image: url("images/fishes.jpg");  /*The image used*/
     background-position:center;  /*center the image */
     height: 600px; /*You must set a specified height */
     background-repeat: once; /*do not repeat the image*/
