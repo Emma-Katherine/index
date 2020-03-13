@@ -13,7 +13,8 @@ body {
 h1 {
   color: red;
   font-style: bold;
-  font-size: 50px;
+  font-size: 200px;
+  text-align: center;
 }
 
 h2 {
@@ -43,7 +44,7 @@ img {
   line-height: 1;
   color: red;
   margin: 15px 0;
-  padding: 30px;
+  padding: 0px;
 }
 
 .subtitle1 {
@@ -55,7 +56,15 @@ img {
 }
 
 header {
-  Border-bottom: 5px solid grey;
+  /* Border-bottom: 5px solid grey; */
+}
+.p {
+  line-height: 1px;
+}
+section{
+  font-size: 24px;
+  line-height: 1;
+  color: red;
 }
 
 img {
@@ -64,8 +73,9 @@ img {
 }
 
 .title {
-  font-size: 48px;
+  font-size: 100px;
   text-decoration: underline;
+  line-height: 0;
 }
 
 .container {
@@ -101,8 +111,6 @@ img {
   margin-right: 15px;
   margin-bottom:15px;
 }
-
-
 
 .imgsafety img {
   width: 250px;
